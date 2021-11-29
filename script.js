@@ -1,3 +1,4 @@
+// making website password protected
 let password; 
 let pass1="12345"; 
 password=prompt('Enter Password',' '); 
