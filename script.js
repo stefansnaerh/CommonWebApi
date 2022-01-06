@@ -1,11 +1,3 @@
-// making website password protected
-let password; 
-let pass1="12345"; 
-password=prompt('Enter Password',' '); 
-if (password==pass1) 
-alert('Correct Password! Click OK to Enter!'); 
-else { window.location="index.html"; 
-} 
 
 // Add note to local storage
 let addBtn = document.getElementById("add-btn");
