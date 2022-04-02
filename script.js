@@ -1,3 +1,19 @@
+// function to switch between login page and note page
+function start() {
+  let change = document.getElementById("notes-app")
+  change.style.display='block'
+  // Code to change the url
+  const stateObj ={ foo: 'bar' };
+  history.replaceState(stateObj, '', 'notes')
+} 
+// function to go pack to starting page
+function back() {
+  let backAgain = document.getElementById("notes-app");
+  backAgain.style.display='none';
+   // Code to change the url
+  const stateObj ={ foo: 'bar' };
+  history.replaceState(stateObj, '', 'starting')
+}
 
 // Add note to local storage
 let addBtn = document.getElementById("add-btn");

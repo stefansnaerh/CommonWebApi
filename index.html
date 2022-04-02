@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <div id="starting-page">
+        <a href="#" onclick="start()" class="Start">Start</a>
+        <a href="#" onclick="back()" class="Back">Back</a>
+    </div>
+    <div id="notes-app">
         <div class="container">
             <h1>My Notes App</h1>
             <form action="">
@@ -18,7 +22,6 @@
                 <button id="add-btn">Add Note</button>
             </form>
         </div>
-    </header>
 
     <section>
         <div class="container">
@@ -37,7 +40,7 @@
             </div>
         </div>
     </section>
-    
+</div>
 
     <script src="script.js"></script>
 </body>
